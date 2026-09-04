@@ -96,7 +96,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 # Install Python dependencies
-pip install fastapi uvicorn sqlalchemy networkx xgboost scikit-learn pydantic sendgrid pytest
+pip install fastapi uvicorn sqlalchemy networkx xgboost scikit-learn pydantic sendgrid pytest pandas
 
 # Launch FastAPI Backend Server
 python -m backend.app.main
